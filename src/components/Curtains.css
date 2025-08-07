@@ -1,0 +1,28 @@
+.reveal{
+  height: 200px;
+  width:200px;
+
+  position:relative;
+}
+
+.reveal *{
+  height:100%;
+  width:100%;
+}
+
+.curtain, .curtain *{
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.curtain-left, .curtain-right{
+  opacity:0.9;
+}
+.curtain-left{
+  background-color:rgb(140, 0, 0);
+}
+
+.curtain-right{
+  background-color: rgb(0, 140, 0);
+}

@@ -1,0 +1,9 @@
+.center{
+  display:flex;
+  justify-content:space-evenly;
+  align-content:center;
+  align-items:center;
+
+  border:2px dashed darkblue;
+  margin:2px;
+}
